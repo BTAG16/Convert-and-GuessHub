@@ -1,0 +1,16 @@
+*.suo
+*.user
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vscode/
+*.vs/
+bin/
+obj/
+*.dll
+*.pdb
+*.fsi
+*.fsproj.user
+*.nupkg
+packages/
+appsettings.json
