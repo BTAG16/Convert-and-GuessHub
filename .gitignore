@@ -14,3 +14,5 @@ obj/
 *.nupkg
 packages/
 appsettings.json
+/wwwroot/Content/Hub.*
+/wwwroot/Content/WebSharper.Core.JavaScript/

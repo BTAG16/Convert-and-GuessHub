@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Guess & Convert Hub</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="Content/WebHub.css" />
+    <script type="text/javascript" src="Content/Hub.head.js"></script>
+</head>
+<body>
+    <div class="background-wrapper background-3d">
+        <header>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li class="nav-item"><a id="home-link" class="nav-link" href="${Home}">Home</a></li>
+                    <li class="nav-item"><a id="guessing-game-link" class="nav-link" href="${Guessing}">Guessing Game</a></li>
+                    <li class="nav-item"><a id="currency-converter-link" class="nav-link" href="${Currency}">Currency Converter</a></li>
+                    <li class="nav-item nav-right"><a id="linkedin-link" class="nav-link" href="https://www.linkedin.com/in/cosmos-junior-ighoraye-4a8109239/" target="_blank">Cosmos Junior</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="main-content" class="main-content">
+            <div ws-hole="PageContent"></div>
+        </main>
+
+        <div id="home-template" ws-template="HomeP">
+            <section class="home-section">
+                <h1 class="main-heading">Welcome to My Website</h1>
+                <p class="home-description">Explore my fun Guessing Game and Currency Converter. Stay tuned for more exciting features!</p>
+                <p>Navigate through the links in the Nav-Bar to see the Game and the Converter</p>
+                <div class="home-features">
+                    <a href="https://www.linkedin.com/in/cosmos-junior-ighoraye-4a8109239/" target="_blank" class="feature-card">
+                        <h2>Guessing Game</h2>
+                        <p>Try your luck and see if you can guess the secret number!</p>
+                    </a>
+                    <a href="https://github.com/BTAG16" target="_blank" class="feature-card">
+                        <h2>Currency Converter</h2>
+                        <p>Convert amounts between different currencies with real-time exchange rates.<br /><br />{Exchange rates Update each time the page is loaded/reloaded}</p>
+                    </a>
+                </div>
+            </section>
+        </div>
+
+        <div id="guessing-game-template" ws-template="GuessingGame">
+            <section class="guessing-game-section">
+                <h2 class="section-heading">Guessing Game</h2>
+                <div class="input-group">
+                    <label for="guess-input" class="input-label">Enter your Guess:</label>
+                    <input id="guess-input" class="input-field" type="number" ws-var="Guess" placeholder="Enter a number">
+                </div>
+                <button id="guess-button" class="btn" ws-onclick="CheckGuess">Guess</button>
+                <div id="guess-result" class="result">${Result}</div>
+            </section>
+        </div>
+
+        <div id="currency-converter-template" ws-template="CurrencyConverter">
+            <section class="currency-converter-section">
+                <h1 class="section-heading" style="font-size:30px;">Currency Converter</h1>
+                <p style="margin: 0px;">{Exchange rates Update each time the page is loaded/reloaded}</p>
+                <p style="margin: 0px 0px 10px 0px;">Ensure to Write your Currency in Upper Case only & Max Number of Letters => 3!!!</p>
+                <div class="input-group">
+                    <label for="amount-input" class="input-label">Amount:</label>
+                    <input id="amount-input" class="input-field" type="number" ws-var="Amount" placeholder="Amount">
+                </div>
+                <br />
+                <div class="cards">
+                    <div class="input-group grouping" style="background: #ffffff; color: #000000;">
+                        <label for="from-currency-input" class="input-label">From Currency:</label>
+                        <input id="from-currency-input" class="input-field" type="text" ws-var="FromCurrency" placeholder="E.g: 'EUR'">
+                    </div>
+                    <div class="input-group grouping" style="background: #000000; color: #ffffff;">
+                        <label for="to-currency-input" class="input-label">To Currency:</label>
+                        <input id="to-currency-input" class="input-field" type="text" ws-var="ToCurrency" placeholder="E.g: 'USD'">
+                    </div>
+                </div>
+                <button id="convert-button" class="btn" ws-onclick="ConvertAction">Convert</button>
+                <div id="conversion-result" class="result" style="margin-bottom: 10px;">${Conversion}</div>
+
+                <button id="toggle-rates-button" class="btn" ws-onclick="DisplayRatesAction">Toggle Exchange Rates</button>
+                <br />
+                <div id="exchange-rates" class="exchange-rates-popup">
+                    <div ws-replace="Rates"></div>
+                </div>
+            </section>
+        </div>
+
+
+        <script type="module" src="Content/Hub.js"></script>
+    </div>
+</body>
+</html>
