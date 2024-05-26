@@ -7,7 +7,7 @@ open WebSharper.UI.Client
 open WebSharper.UI.Templating
 open WebSharper.Sitelets
 
-type IndexTemplate = Template<"wwwroot/index.html", ClientLoad.FromDocument>
+type IndexTemplate = Template<"index.html", ClientLoad.FromDocument>
 type EndPoint = 
     | [<EndPoint "/">] Home
     | [<EndPoint "/guessing">] GuessingGame
