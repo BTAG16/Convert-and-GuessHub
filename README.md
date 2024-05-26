@@ -20,7 +20,7 @@ Guess and ConvertHub is a web application that provides two main features: a Gue
 - Access the live application [Hub](https://guessandconverthub.azurewebsites.net/).
 
 ### Screenshots or Screen Records
-<iframe src="https://player.vimeo.com/video/950445086?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="bandicam 2024-05-26 08-14-07-235"></iframe>
+- <iframe src="https://player.vimeo.com/video/58479" width="560" height="315" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 - ![Screenshot 2024-05-26 075619](https://github.com/BTAG16/Convert-and-GuessHub/assets/128963075/cc51371e-fb42-4332-8f9e-e506bf4de2a4)
 - ![Screenshot 2024-05-26 075642](https://github.com/BTAG16/Convert-and-GuessHub/assets/128963075/baaaf43f-8dce-4a23-bf14-bc420f593b94)
 - ![Screenshot 2024-05-26 075723](https://github.com/BTAG16/Convert-and-GuessHub/assets/128963075/02270b02-3559-4d67-9b68-3473a0ab8b52)
