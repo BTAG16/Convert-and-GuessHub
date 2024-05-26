@@ -1,0 +1,23 @@
+2024-05-26 06:13:23.6137|DEBUG|Program|location of wsfscservice is: C:\Users\beheerder\.nuget\packages\websharper.fsharp\7.0.6.454-beta5\tools\net6.0\win-x64 (server side)
+2024-05-26 06:13:23.6183|DEBUG|Program|pipename is: C:\Users\beheerder\.nuget\packages\websharper.fsharp\7.0.6.454-beta5\tools\net6.0\win-x64 (server side)
+2024-05-26 06:13:23.6183|DEBUG|Program|Compiling C:\Users\beheerder\Documents\Programming I Projects\Hub\Hub.fsproj
+2024-05-26 06:13:28.2649|TRACE|Program|Server sends: n: F# compilation: 00:00:04.6614278
+2024-05-26 06:13:32.8030|TRACE|Program|Server sends: n: Checking project: 00:00:04.5381815
+2024-05-26 06:13:32.8030|TRACE|Program|Server sends: n: Waiting on merged metadata: 00:00:00.0025299
+2024-05-26 06:13:32.8764|TRACE|Program|Server sends: n: Parsing with FCS: 00:00:00.0708564
+2024-05-26 06:13:32.8764|TRACE|Program|Server sends: n: Analyzing function arguments: 00:00:00.0011688
+2024-05-26 06:13:32.8764|TRACE|Program|Server sends: n: Resolving names: 00:00:00.0010987
+2024-05-26 06:13:32.9202|TRACE|Program|Server sends: n: WebSharper translation: 00:00:00.0415162
+2024-05-26 06:13:32.9202|TRACE|Program|Server sends: n: Source position transformations: 00:00:00.0060461
+2024-05-26 06:13:32.9202|TRACE|Program|Server sends: n: Packaging assembly: 00:00:00.0017424
+2024-05-26 06:13:33.0035|TRACE|Program|Server sends: n: Writing Hub.Pages.js: 00:00:00.0755299
+2024-05-26 06:13:33.0035|TRACE|Program|Server sends: n: Writing Hub.Client.js: 00:00:00.0029644
+2024-05-26 06:13:33.0035|TRACE|Program|Server sends: n: Writing $StartupCode_Client.js: 00:00:00.0020305
+2024-05-26 06:13:33.0096|TRACE|Program|Server sends: n: Writing $Generated.js: 00:00:00.0010925
+2024-05-26 06:13:33.0096|TRACE|Program|Server sends: n: Writing $EntryPoint.js: 00:00:00.0014926
+2024-05-26 06:13:33.0096|TRACE|Program|Server sends: n: Writing .d.ts files: 00:00:00.0031092
+2024-05-26 06:13:33.0096|TRACE|Program|Server sends: n: Hashing resources: 00:00:00.0025708
+2024-05-26 06:13:33.2218|TRACE|Program|Server sends: n: Serializing metadata: 00:00:00.2050156
+2024-05-26 06:13:33.2408|TRACE|Program|Server sends: n: Writing resources into assembly: 00:00:00.0189709
+2024-05-26 06:13:33.4604|TRACE|Program|Server sends: n: Bundling: 00:00:00.2196472
+2024-05-26 06:13:33.4870|TRACE|Program|Server sends: x: 0
